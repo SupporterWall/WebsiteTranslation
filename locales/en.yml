@@ -1,383 +1,56 @@
 en:
-  application_page_title: SupporterWall - Raise Money and Showcase your Supporters
-  inline_page_title: SupporterWall - Raise Money and Showcase your Supporters
-  paypal_language_code: US
-  common:
-    create_your_wall_now: Create Your Wall Now
-  locale:
-    locale_updated: Your language preferences have been updated
-    locale_not_supported_yet: That language is not supported yet
-    no_locale_specified: No language preferences were specified
-  flash:
-    account_created: Your account has been created
-    successful_login: You have been signed in successfully
-    successful_logout: You have been signed out successfully
-    must_be_logged_in: You must be signed in to see this page
-    must_be_a_complete_user: Please fill out account details
-    grid_created_successfully: New section created successfully
-    grid_updated_successfully: That section has been updated
-    account_updated: Your account has been updated
-    marker_now_taken: That square is now taken
-    marker_updated: That square has been updated
-    purchase_time_limit: Ok, you have 10 minutes to complete payment for the square.
-    must_select_a_donation_amount: You must select a donation amount in order to continue.
-    no_more_donations_accepted_for_this_amount: Sorry. Donations for this amount are no longer selected. Please try another amount.
-    below_the_minimum_donation: We're sorry, but that amount is below the minimum donation for this wall
-    marker_already_taken: Sorry, that square is alread being used by someone else
-    wall_saved: Your changes have been saved.
-    no_access_to_wall: You don't have access to that wall.
-    account_removed: Your account has been removed.
-    manage:
-      incorrect_email: That's not the right email address. Please try again.
-      marker_updated: Your square has been updated
-  nav:
-    dashboard: Dashboard
-    account: Account
-    help: Help
-    logout: Logout
-    about: About
-    press: Press
-    blog: Blog
-    terms: Terms of Service
-    privacy: Privacy
-    login: Have an account? Sign in here.
-    howitworks: How It Works
-    sign_up: Create Your Own Wall
-  core:
-    logo_title: SupporterWall
-    slogan: Raise Money and Showcase your Supporters
-    copyright_html: ! '&copy; 2011 SupporterWall Inc.'
-    follow_on_twitter: Follow us on Twitter
-    like_on_facebook: Like us on Facebook
-    prepaid: Prepaid
-    percent: Percent
-    unpaid: Unpaid
-  affiliates:
-    new:
-      title: Register To Be An Affiliate
-    show:
-      title: Affiliate Dashboard
-      key_header: Your Affiliate Code
-      key_summary_html: ! '<p>Your affiliate key is <strong>%{key}</strong>. To use it, just add ?r=%{key} to the end of a SupporterWall.com URL when you share it with someone.</p> <p>For example: <a href="%{url}">%{url}</a></p><p>When a user visits this site, your referral key will be saved on their computer for 90 days.</p>'
-      header_earnings: Earnings
-      header_contact: Questions?
-      walls_header: Walls Referred
-      summaries_header: Affiliate Summary
-  users:
-    new:
-      title: Register For An Account
-      header_welcome: Ready to get started?
-      create_your_account: You can start building your first wall as soon as you're registered!
-      header_sign_up_with_facebook: Register with your Facebook account
-      header_sign_up_with_email: Register with your email address
-      sign_in_to_your_account_html: Do you already have an account? <a href="%{url}">Sign in instead</a>.
-      paypal_email_hint_html: You must have a PayPal account to accept donations. <a href="http://paypal.com" target="_blank">Learn More</a>.
-      agree_to_terms_of_service_html: I agree to the <a href="%{url}" target="_blank">Terms of Service</a>.
-
   account:
-    show:
-      page_title: Update Your Account - SupporterWall
-      title: Update Your Account
-      header_welcome: Welcome!
-      sub_header: This is where you can make changes to your account, such as your paypal email address and your password.
-      header_paypal_details: Change your Paypal details
-      save_paypal_details: Save Changes
-      header_password: Change your password
-      save_password: Save Changes
     setup:
-      title: Setup Your Account
-      header_almost_done: You're Almost Done
-      sub_header_almost_done: Finish setting up your account...
-      paypal_email_hint_html: You must have a PayPal account to accept donations. <a href="http://paypal.com" target="_blank">Learn More</a>.
       agree_to_terms_of_service_html: I agree to the <a href="%{url}" target="_blank">Terms of Service</a>.
-  markers:
-    export:
-      page_title: Exporting Squares
-      export_of_wall: Purchased Squares from %{wall}
-      download_csv: Download this data for Excel
-    gift:
-      page_title: Gift This Square - SupporterWall
-      title: Gift This Square
-      header: Alright, that square is available to gift
-      locked_wall_reminder: Remember! Once you gift this square, your wall status will change to 'Live' and be un-editable.
-      submit: Yes, I want to gift this square
-    edit:
-      page_title: Edit your square on SupporterWall
-      title: Edit Your Square
-      supporter_update_link: ! 'The supporter can update their square using this link:'
-      agree_to_terms_of_service_html: By making changes to your square, you agree to our <a href="/terms">Terms of Service</a>.
-      photo_hint: 128x128 non-transparent png is recommended, but any image file smaller than 1MB will do.
-      photo_remove_hint: Check this box to remove the photo (use an anonymous image)
-      name_hint: Appears when visitors hover over this square.
-      url_hint: Where visitors go when they click on this square.
-      email_hint: For updates and thank you notes, not for spam.
-      anonymous_hint: ! '* To make it anonymous, just leave all the fields blank.'
-      amount_paid_hint: How much was paid for this square
-      cancel: Cancel
-      submit: Save Changes
-      header_error: ! 'Some errors occured:'
-    new:
-      header_already_taken: We're sorry. Someone has already claimed that square.
-      taken_choose_another_square: Click here to back to the wall  and choose another square.
-      header_still_available: CONGRATS! That square is still available!
-      square_details_html: You are placing a %{size}-pixel square on %{name} for <strong>%{cost}</strong>.
-      header_donation: Almost done with your donation
-      square_donation_details_html: You are getting a %{size}-pixel square on %{name} for your donation of <strong>%{cost}</strong>.
-      square_expiry_html: ! ' It will be yours for <strong>%{expiry}</strong>.'
-      anonymous_hint: ! '* To make it anonymous, just leave all the fields blank.'
-      purchase_terms_html: All square purchases are final. By purchasing this square you agree to the <a href="http://supporterwall.com/terms.html" target="_blank">Terms of Service</a> and <a href="http://supporterwall.com/privacy.html" target="_blank">Privacy Policy</a> of SupporterWall, Inc.
-      submit: Get this square!
-      submitting: Loading. Please wait...
-      available_choose_another_square: or, Choose a different square
-      available_choose_another_amount: or, Donate another amount
-      alt:
-        choose_your_picture: Choose your picture
-      page_title: inline_page_title
-    pay:
-      page_title: Pay for your square - SupporterWall.com
-      title: Almost done!
-      subhead: ! 'Ok, here''s what we''ve got:'
-      location_and_cost_html: at <strong>%{location}</strong> for <strong>%{cost}</strong>.
-      paypal_item_name: Square for %{name} - %{key}
-      make_payments_with_paypal_alt: Make payment with Paypal
-      make_sure_you_click_the_link: Please make sure you click the link to return to this site when you're done.
-    complete:
-      page_title: Square
-      header_free: Great! You're all done.
-      content_free_html: You should see your picture in the grid within a few minutes!
-      header_paid: Thank you! Your payment was completed successfully.
-      content_paid_html: A receipt for your donation has been emailed to you from PayPal. You may log into your account at <a href="www.paypal.com/">PayPal</a> to view details of this transaction. You should see your square on the wall within a few minutes.
-      tweet_this_html: ! '<h3>Help spread the word!</h3><a target="_blank" href="http://twitter.com/?status=I%20just%20supported%20%{name}%20and%20so%20should%20you!%20%{url}">Click here to tweet: "I just supported %{name}, and so should you! %{url}"</a>'
-      close_this_window: Close This Window
-      start_your_own_wall: Would you like to have your own SupporterWall?
-      start_your_wall_content_html: A SupporterWall is a great way to raise money and proudly showcase your supporters on your website or facebook page. <a href="http://www.supporterwall.com" target="_blank">Click here for more information</a>.
-    new_from_donation:
-      page_title: Make A Donation
-    cancel:
-      header_canceled: Your Purchase Has Been canceled
-      content: We're sorry to see you change your mind. If you have any concerns that we can help you with, please contact us and we would be happy to help.
-      close_this_window: Close This Window
-  manage:
-    login:
-      page_title: Sign in to edit your donation
-      title: Sign in to edit your square
-      email_address: What is your email address?
-      email_hint: The email address you used when purchasing this square.
-      submit: Sign In
-    edit:
-      page_title: Edit your square
-      title: Edit Your Square
-      agree_to_terms_of_service_html: By making changes to your square, you agree to our <a href="/terms">Terms of Service</a>.
-      anonymous_hint: ! '* To make it anonymous, just leave all the fields blank.'
-      cancel: Cancel
-      submit: Update Square
+      header_almost_done: You're Almost Done
+      paypal_email_hint_html: You must have a PayPal account to accept donations. <a href="http://paypal.com" target="_blank">Learn More</a>.
+      sub_header_almost_done: Finish setting up your account...
+      title: Setup Your Account
     show:
-      page_title: Your Square - SupporterWall
-      title: Your Square
-      make_changes: Make Changes
-      quit: Sign Out
-  sessions:
-    new:
-      page_title: Sign in to your account - SupporterWall
-      title: Sign in to your account
-      header_welcome: Welcome back!
-      subhead_welcome: Sign in here...
-      header_facebook: Sign in with Facebook
-      register_for_account_html: Don't have an account? <a href="%{url}">Create one now</a>!
-      header_email: Sign in with Email
-      email_submit: Sign In
-    create:
-      page_title: Sign in to your account
-  walls:
-    index:
-      page_title: Your Dashboard - SupporterWall
-      title: Your Dashboard
-      header_stats: Overall Stats
-      number_of_walls: ! 'Number of walls:'
-      total_funding: ! 'Total funding:'
-      dashboard_table_summary: Your Walls
-      table:
-        wall_name: Wall name
-        status: Status
-        actions: Actions
-        customize: Customize
-        manage: Manage
-      new_wall: Create a new wall
-    new:
-      page_title: Create a new wall - SupporterWall
-      title: Create a new wall
-      change_this_later: Don't worry, you can change these settings later
-      submit: Next Step
-    create:
-      page_title: Build a new wall
-    section:
-      section_number: Section %{number}
-      upload_custom_image: Upload a custom image
-    show:
-      page_title: Customize your Wall - SupporterWall
-      header_set_width: Wall Width
-      subhead_set_width: to fit on your site
-      header_palette: Choose Palette
-      subhead_palette: (more coming soon)
-      palette_light: Light
-      header_preview: Preview
-      subhead_preview_size: Shown at %{size} size
-      save: Save Changes
-      add_another_section: Add another section
-      get_code: Get Code
-      take_it_live: Purchase
-      header_potential_funds_html: ! 'Total Potential Funds: %{currency_code}<span>%{amount}</span> %{currency_name}'
-      background_image: Background Image
-      select_image: Select Your Image
-      select: Select
-      grabcode:
-        header_pay_now: Pay Now
-        header_pay_later: Pay Later
-        header_payment_options: You're almost done!
-        select_payment_option: ! 'Just select the pricing plan that works best for you to launch your SupporterWall:'
-        header_read_this: Read This!
-        content_read_this: Once you begin receiving donations, you will not be able to re-configure your supporter wall! You may alter color palette and square prices, but all other options will be locked.
-        header_launch_wall: Start Showcaseing Your Supporters!
-        header_embed_code: Embed Code
-        content_embed_code_html: Just drop this code onto any HTML page and your supporter wall will be set up. That's it! <em><small>If you've already pasted the code into your site, your changes are now live, no need to re-paste :-)</small></em>
-        header_hosted: Hosted Version
-        content_hosted_html: <a href="%{url}">See what your wall looks like</a> if you don't yet have your own website.
-        header_facebook: What about Facebook?
-        content_facebook: We're working on getting Facebook integration setup so that you can have a wall on your Facebook page. We will let you know as soon as it's live.
-      js:
-        unsaved_changes: You have made changes to your wall without saving them. Are you sure you want to leave this page?
-    manage:
-      page_title: Manage your wall - SupporterWall
-      pick_a_square: Click any taken square to edit it. Click any available square to give as a gift.
-      squares_sold_html: ! 'Squares Sold: %{number}'
-      squares_available_html: ! 'Squares Available: %{number}'
-      export_all_markers: Export
-    subnav:
-      customize: Customize
-      manage: Manage
-      save: Save
-      cancel: Cancel
-      settings: Settings
-      tools: Tools
-      export: Export Squares
-      images: Images
-    cancel:
-      page_title: Your purchase has been canceled - SupporterWall
-      title: Your purchase has been canceled
-      successfully_canceled: We're sorry to see that you decided not to pay for your wall. Don't worry though, it's still in your account and you can go back to it at any point if you change your mind. Also, we would love to hear why you chose not to pay. Please contact us with your feedback. :)
-      please_close_window: You may close this window to return to the wall builder
-    pay:
-      paypal_item_name: ! 'SupporterWall: %{name} - %{key}'
-      redirecting_you_to_paypal: Redirecting you to Paypal to pay for the wall. If you are not redirected in 10 seconds
-      click_here: Click Here
-    complete:
-      page_title: Thank you for your payment - SupporterWall
-      title: Thank you for your payment
-      successfully_completed: We are just waiting for confirmation from Paypal, which should only take a minute. As soon as it's done, your wall is ready to go!
-      back_to_dashboard: Head back to your dashboard
-    edit:
-      save_changes: Save Changes
-
-    donate:
-      next: Next Step
-      page_title: Make a Donation
-      title: Become A Supporter
-      donation_amount: Ok, how much would you like to donate?
-      other_amount: ! 'Another amount:'
-    tools:
-      header_donate_button: Direct Donate Link
-      description_donate_button: Use this link to let people donate without having to pick a square. The system will assign them the best available square based on their donation amount. This also allows people to donate more than the set square prices.
-      donate_button_default_text: Donate Now
-      donate_button_link_text: What would you like the link to say?
-      donate_button_preview: ! 'Preview:'
-
-    images:
-      header_your_custom_images: Your Custom Images
-      description_your_custom_images: Custom images can be used as square background images or as the default "anonymous" image for your wall. Your existing images (if any) can be found here.
-      header_add_new_custom_image: Upload A New Custom Image
-      confirm_delete: Are you sure you want to delete this image? This action is not reversible.
-
-  general:
-    index:
-      title: Collect donations. Build your wall.
-      primary_description_html: SupporterWall&trade; gives you the ability to collect donations for any cause or project. Supporters purchase squares on your SupporterWall. The square then displays their chosen photo and link. As squares are purchased, the proceeds go directly to you.
-      get_started: Get Started
-      featured_on: ! 'As featured on:'
-      success_story_1: Habitat for Humanity Sarasota is using SupporterWall to help build affordable homes for low-income working families in Sarasota Florida.
-      success_story_2: ! 'Operation: Kid Equip is using SupporterWall to raise money for kids'' backpacks.'
-      success_story_link_title: Check it out!
-      steps:
-        step1_title: Register
-        step1_description: Register for a SupporterWall account with your email or use Facebook.
-        step2_title: Create a wall
-        step2_description: Customize your wall, connect it to your PayPal account and paste the code into your site.
-        step3_title: Start collecting
-        step3_description: Visitors to your site can immediately start purchasing squares and donating to you.
-      learn_more: Learn More
-
-    subnav:
-      title: How It Works
-      overview: Overview
-      features: Features
-      pricing: Pricing
-    about:
-      page_title: About The Company - SupporterWall
-      title: About Us
-      header: We're here to help you raise money while giving back to your supporters.
-      about_summary_html: <p>SupporterWall began as a prototype in early 2009 and has now grown into a crowdfunding product that anyone can use.</p><p>We founded SupporterWall in 2010 because we wanted to give you the ability to raise money for whatever you want quickly, easily, and without restrictions. SupporterWall empowers you to raise money by allowing your supporters to purchase spots on your SupporterWall. You accept donations, and your supporters are featured on your site in return. A win win for everyone involved.</p><p>We're pretty proud of SupporterWall so far, but we've only just begun. Expect SupporterWall to grow into a powerful funding platform with more features than you can shake a stick at. Stay tuned...</p>
-      meet_the_founders: ! 'Meet the founder:'
-      jeremy_baker: Jeremy Baker
-      jeremy_bio: Jeremy is a design prototyper, idea-generation guru and code wonderkid.
-      follow_on_twitter: Follow on Twitter
-      header_contact: Contact Us
-    press:
-      page_title: Press about SupporterWall
-      title: Press
-      for_media_inquiries: Media Inquiries
-    terms:
-      page_title: Terms of Service - SupporterWall
-      title: Terms of Service
-    help:
-      page_title: Help and Support - SupporterWall
-      title: Frequently Asked Questions
-    privacy:
-      page_title: Privacy Policy - SupporterWall
-      title: Privacy Policy
-    pricing:
-      header_contact: Contact Us
-      sign_up_for_a_free_account_and_get_started: Sign up for a free acount and get started
-
-    howitworks:
-
-    sidenav:
-      header_contact: Contact Us
-    features:
-
-    betawall:
-      page_title: SupporterWall - Raise Money and Showcase your Supporters
-      title:
-  notification:
-    welcome:
-      subject: Welcome to SupporterWall.com
-    new_marker_notice:
-      subject: A new square has been purchased on your wall
-    new_wall_notice:
-      subject: A new wall has been purchased
-    marker_manage:
-      subject: You can make changes to the square you just bought
-    invite:
-      subject: You have been invited to SupporterWall.com
+      header_password: Change your password
+      header_paypal_details: Change your Paypal details
+      header_welcome: Welcome!
+      page_title: Update Your Account - SupporterWall
+      save_password: Save Changes
+      save_paypal_details: Save Changes
+      sub_header: This is where you can make changes to your account, such as your paypal email address and your password.
+      title: Update Your Account
   activerecord:
-    models:
-      marker: square
     attributes:
+      grid:
+        rows: Rows
+        square_expiry: Squares Expire
+        square_expiry_help: The length of time a donor will own the square for before it can be purchased by someone else
+        square_expiry_values:
+          1_day: 1 Day
+          1_month: 1 Month
+          1_week: 1 Week
+          1_year: 1 Year
+          6_months: 6 Months
+          never: Never
+        square_price: Square Price
+        square_size: Square Size
+      grid_image:
+        no_background: No Background
+      marker:
+        amount_paid: Amount Paid
+        anonymous: Anonymous
+        comment: Comment
+        created_at: Created At
+        display_name: Name
+        email: Email
+        grid_id: Grid ID
+        image:
+          alt: Image for the link to %{url}
+        key: Unique Key
+        link_url: Website URL
       user:
+        email: Email Address
         firstname: First Name
         lastname: Last Name
-        email: Email Address
-        paypal_email: Paypal Email
         password: Password
         password_confirmation: Password Confirmation
+        paypal_email: Paypal Email
         terms_of_service: Terms Of Service
       user_session:
         email: Email
@@ -385,9 +58,10 @@ en:
         name: Name of the Wall
         status:
           locked: Locked
-          unpaid: Unpaid
           paid: Editable
+          unpaid: Unpaid
         width:
+          width1024: Very Very Wide
           width128: Very Very Thin
           width256: Very Thin
           width384: Thin
@@ -395,112 +69,430 @@ en:
           width640: Average
           width768: Wide
           width896: Very Wide
-          width1024: Very Very Wide
-      marker:
-        anonymous: Anonymous
-        display_name: Name
-        email: Email
-        comment: Comment
-        amount_paid: Amount Paid
-        grid_id: Grid ID
-        link_url: Website URL
-        key: Unique Key
-        created_at: Created At
-        image:
-          alt: Image for the link to %{url}
-      grid_image:
-        no_background: No Background
-      grid:
-        square_size: Square Size
-        rows: Rows
-        square_price: Square Price
-        square_expiry: Squares Expire
-        square_expiry_help: The length of time a donor will own the square for before it can be purchased by someone else
-        square_expiry_values:
-          never: Never
-          1_day: 1 Day
-          1_week: 1 Week
-          1_month: 1 Month
-          6_months: 6 Months
-          1_year: 1 Year
     errors:
       models:
         wall:
           attributes:
             name:
               blank: can't be blank
+    models:
+      marker: square
+  affiliates:
+    new:
+      title: Register To Be An Affiliate
+    show:
+      header_contact: Questions?
+      header_earnings: Earnings
+      key_header: Your Affiliate Code
+      key_summary_html: ! '<p>Your affiliate key is <strong>%{key}</strong>. To use it, just add ?r=%{key} to the end of a SupporterWall.com URL when you share it with someone.</p> <p>For example: <a href="%{url}">%{url}</a></p><p>When a user visits this site, your referral key will be saved on their computer for 90 days.</p>'
+      summaries_header: Affiliate Summary
+      title: Affiliate Dashboard
+      walls_header: Walls Referred
+  application_page_title: SupporterWall - Raise Money and Showcase your Supporters
+  authlogic:
+    attributes:
+      user_session:
+        email: Your email address
+        login: Your email address
+        password: Your password
+        remember_me: Remember me
+    error_messages:
+      consecutive_failed_logins_limit_exceeded: You have tried signing in in too many times
+      email_invalid: Email
+      login_blank: can not be blank
+      login_invalid: is invalid
+      login_not_found: was not found in our system
+      no_authentication_details: You didn't give us any sign in information
+      not_active: Your account is not active
+      not_approved: Your account is not approved
+      not_confirmed: Your account is not confirmed
+      password_blank: can not be blank
+      password_invalid: is invalid
+    models:
+      user_session: UserSession
+  common:
+    create_your_wall_now: Create Your Wall Now
+  core:
+    copyright_html: ! '&copy; 2011 SupporterWall Inc.'
+    follow_on_twitter: Follow us on Twitter
+    like_on_facebook: Like us on Facebook
+    logo_title: SupporterWall
+    percent: Percent
+    prepaid: Prepaid
+    slogan: Raise Money and Showcase your Supporters
+    unpaid: Unpaid
+  error_messages:
+    login_invalid: Invalid Login
   errors:
     template:
+      body: ! 'We couldn''t do that because:'
       header:
         one: ! '%{count} problem was found'
         other: ! '%{count} problems were found'
-      body: ! 'We couldn''t do that because:'
-  authlogic:
-    error_messages:
-      login_blank: can not be blank
-      login_not_found: was not found in our system
-      login_invalid: is invalid
-      consecutive_failed_logins_limit_exceeded: You have tried signing in in too many times
-      email_invalid: Email
-      password_blank: can not be blank
-      password_invalid: is invalid
-      not_active: Your account is not active
-      not_confirmed: Your account is not confirmed
-      not_approved: Your account is not approved
-      no_authentication_details: You didn't give us any sign in information
-    models:
-      user_session: UserSession
-    attributes:
-      user_session:
-        login: Your email address
-        email: Your email address
-        password: Your password
-        remember_me: Remember me
+  flash:
+    account_created: Your account has been created
+    account_removed: Your account has been removed.
+    account_updated: Your account has been updated
+    below_the_minimum_donation: We're sorry, but that amount is below the minimum donation for this wall
+    grid_created_successfully: New section created successfully
+    grid_updated_successfully: That section has been updated
+    manage:
+      incorrect_email: That's not the right email address. Please try again.
+      marker_updated: Your square has been updated
+    marker_already_taken: Sorry, that square is alread being used by someone else
+    marker_now_taken: That square is now taken
+    marker_updated: That square has been updated
+    must_be_a_complete_user: Please fill out account details
+    must_be_logged_in: You must be signed in to see this page
+    must_select_a_donation_amount: You must select a donation amount in order to continue.
+    no_access_to_wall: You don't have access to that wall.
+    no_more_donations_accepted_for_this_amount: Sorry. Donations for this amount are no longer selected. Please try another amount.
+    purchase_time_limit: Ok, you have 10 minutes to complete payment for the square.
+    successful_login: You have been signed in successfully
+    successful_logout: You have been signed out successfully
+    wall_saved: Your changes have been saved.
+  general:
+    about:
+      about_summary_html: <p>SupporterWall began as a prototype in early 2009 and has now grown into a crowdfunding product that anyone can use.</p><p>We founded SupporterWall in 2010 because we wanted to give you the ability to raise money for whatever you want quickly, easily, and without restrictions. SupporterWall empowers you to raise money by allowing your supporters to purchase spots on your SupporterWall. You accept donations, and your supporters are featured on your site in return. A win win for everyone involved.</p><p>We're pretty proud of SupporterWall so far, but we've only just begun. Expect SupporterWall to grow into a powerful funding platform with more features than you can shake a stick at. Stay tuned...</p>
+      follow_on_twitter: Follow on Twitter
+      header: We're here to help you raise money while giving back to your supporters.
+      header_contact: Contact Us
+      jeremy_baker: Jeremy Baker
+      jeremy_bio: Jeremy is a design prototyper, idea-generation guru and code wonderkid.
+      meet_the_founders: ! 'Meet the founder:'
+      page_title: About The Company - SupporterWall
+      title: About Us
+    betawall:
+      page_title: SupporterWall - Raise Money and Showcase your Supporters
+      title: Our BetaWall
+    features: Features
+    help:
+      page_title: Help and Support - SupporterWall
+      title: Frequently Asked Questions
+    howitworks: How It Works
+    index:
+      featured_on: ! 'As featured on:'
+      get_started: Get Started
+      learn_more: Learn More
+      primary_description_html: SupporterWall&trade; gives you the ability to collect donations for any cause or project. Supporters purchase squares on your SupporterWall. The square then displays their chosen photo and link. As squares are purchased, the proceeds go directly to you.
+      steps:
+        step1_description: Register for a SupporterWall account with your email or use Facebook.
+        step1_title: Register
+        step2_description: Customize your wall, connect it to your PayPal account and paste the code into your site.
+        step2_title: Create a wall
+        step3_description: Visitors to your site can immediately start purchasing squares and donating to you.
+        step3_title: Start collecting
+      success_story_1: Habitat for Humanity Sarasota is using SupporterWall to help build affordable homes for low-income working families in Sarasota Florida.
+      success_story_2: ! 'Operation: Kid Equip is using SupporterWall to raise money for kids'' backpacks.'
+      success_story_link_title: Check it out!
+      title: Collect donations. Build your wall.
+    press:
+      for_media_inquiries: Media Inquiries
+      page_title: Press about SupporterWall
+      title: Press
+    pricing:
+      header_contact: Contact Us
+      sign_up_for_a_free_account_and_get_started: Sign up for a free acount and get started
+    privacy:
+      page_title: Privacy Policy - SupporterWall
+      title: Privacy Policy
+    sidenav:
+      header_contact: Contact Us
+    subnav:
+      features: Features
+      overview: Overview
+      pricing: Pricing
+      title: How It Works
+    terms:
+      page_title: Terms of Service - SupporterWall
+      title: Terms of Service
   helpers:
-    select:
-      prompt: Please select
-    submit:
-      create: Create %{model}
-      update: Update %{model}
-      submit: Save %{model}
-      user:
-        create: Create Your Account
     label:
+      marker:
+        amount_paid: Amount Paid
+        email: Email
+        email_hint: For updates and thank you notes, not for spam.
+        name: Name or Title
+        name_hint: Appears when visitors hover over your square.
+        paid: Check this box if the marker is active (fully paid).
+        photo: Picture to display
+        photo_hint: 128x128 non-transparent png recommended, but any image file smaller than 1MB will do.
+        remove_photo: Check this box to remove the photo (use an anonymous image)
+        url: URL
+        url_hint: Where visitors go when they click on your square.
       user_session:
         email: Email
         password: Password
         remember_me: Remember me when I come back on this computer
-      marker:
-        photo: Picture to display
-        name: Name or Title
-        url: URL
-        email: Email
-        amount_paid: Amount Paid
-        paid: Check this box if the marker is active (fully paid).
-        remove_photo: Check this box to remove the photo (use an anonymous image)
-        photo_hint: 128x128 non-transparent png recommended, but any image file smaller than 1MB will do.
-        name_hint: Appears when visitors hover over your square.
-        url_hint: Where visitors go when they click on your square.
-        email_hint: For updates and thank you notes, not for spam.
       wall:
-        name: What should the wall be called?
+        anonymous_grid_image_id: What image should be used for anonymous squares?
         currency_code: What currency should the wall use?
         hosted_url: What is the URL where the wall will be placed?
-        paypal_email: What PayPal email would you like the money to go to?
         language_code: What language should the wall be in?
-        anonymous_grid_image_id: What image should be used for anonymous squares?
+        name: What should the wall be called?
+        paypal_email: What PayPal email would you like the money to go to?
+    select:
+      prompt: Please select
+    submit:
+      create: Create %{model}
+      submit: Save %{model}
+      update: Update %{model}
+      user:
+        create: Create Your Account
+  inline_page_title: SupporterWall - Raise Money and Showcase your Supporters
+  locale:
+    locale_not_supported_yet: That language is not supported yet
+    locale_updated: Your language preferences have been updated
+    no_locale_specified: No language preferences were specified
+  manage:
+    edit:
+      agree_to_terms_of_service_html: By making changes to your square, you agree to our <a href="/terms">Terms of Service</a>.
+      anonymous_hint: ! '* To make it anonymous, just leave all the fields blank.'
+      cancel: Cancel
+      page_title: Edit your square
+      submit: Update Square
+      title: Edit Your Square
+    login:
+      email_address: What is your email address?
+      email_hint: The email address you used when purchasing this square.
+      page_title: Sign in to edit your donation
+      submit: Sign In
+      title: Sign in to edit your square
+    show:
+      make_changes: Make Changes
+      page_title: Your Square - SupporterWall
+      quit: Sign Out
+      title: Your Square
+  markers:
+    cancel:
+      close_this_window: Close This Window
+      content: We're sorry to see you change your mind. If you have any concerns that we can help you with, please contact us and we would be happy to help.
+      header_canceled: Your Purchase Has Been canceled
+    complete:
+      close_this_window: Close This Window
+      content_free_html: You should see your picture in the grid within a few minutes!
+      content_paid_html: A receipt for your donation has been emailed to you from PayPal. You may log into your account at <a href="www.paypal.com/">PayPal</a> to view details of this transaction. You should see your square on the wall within a few minutes.
+      header_free: Great! You're all done.
+      header_paid: Thank you! Your payment was completed successfully.
+      page_title: Square
+      start_your_own_wall: Would you like to have your own SupporterWall?
+      start_your_wall_content_html: A SupporterWall is a great way to raise money and proudly showcase your supporters on your website or facebook page. <a href="http://www.supporterwall.com" target="_blank">Click here for more information</a>.
+      tweet_this_html: ! '<h3>Help spread the word!</h3><a target="_blank" href="http://twitter.com/?status=I%20just%20supported%20%{name}%20and%20so%20should%20you!%20%{url}">Click here to tweet: "I just supported %{name}, and so should you! %{url}"</a>'
+    edit:
+      agree_to_terms_of_service_html: By making changes to your square, you agree to our <a href="/terms">Terms of Service</a>.
+      amount_paid_hint: How much was paid for this square
+      anonymous_hint: ! '* To make it anonymous, just leave all the fields blank.'
+      cancel: Cancel
+      email_hint: For updates and thank you notes, not for spam.
+      header_error: ! 'Some errors occured:'
+      name_hint: Appears when visitors hover over this square.
+      page_title: Edit your square on SupporterWall
+      photo_hint: 128x128 non-transparent png is recommended, but any image file smaller than 1MB will do.
+      photo_remove_hint: Check this box to remove the photo (use an anonymous image)
+      submit: Save Changes
+      supporter_update_link: ! 'The supporter can update their square using this link:'
+      title: Edit Your Square
+      url_hint: Where visitors go when they click on this square.
+    export:
+      download_csv: Download this data for Excel
+      export_of_wall: Purchased Squares from %{wall}
+      page_title: Exporting Squares
+    gift:
+      header: Alright, that square is available to gift
+      locked_wall_reminder: Remember! Once you gift this square, your wall status will change to 'Live' and be un-editable.
+      page_title: Gift This Square - SupporterWall
+      submit: Yes, I want to gift this square
+      title: Gift This Square
+    new:
+      alt:
+        choose_your_picture: Choose your picture
+      anonymous_hint: ! '* To make it anonymous, just leave all the fields blank.'
+      available_choose_another_amount: or, Donate another amount
+      available_choose_another_square: or, Choose a different square
+      header_already_taken: We're sorry. Someone has already claimed that square.
+      header_donation: Almost done with your donation
+      header_still_available: CONGRATS! That square is still available!
+      page_title: inline_page_title
+      purchase_terms_html: All square purchases are final. By purchasing this square you agree to the <a href="http://supporterwall.com/terms.html" target="_blank">Terms of Service</a> and <a href="http://supporterwall.com/privacy.html" target="_blank">Privacy Policy</a> of SupporterWall, Inc.
+      square_details_html: You are placing a %{size}-pixel square on %{name} for <strong>%{cost}</strong>.
+      square_donation_details_html: You are getting a %{size}-pixel square on %{name} for your donation of <strong>%{cost}</strong>.
+      square_expiry_html: ! ' It will be yours for <strong>%{expiry}</strong>.'
+      submit: Get this square!
+      submitting: Loading. Please wait...
+      taken_choose_another_square: Click here to back to the wall  and choose another square.
+    new_from_donation:
+      page_title: Make A Donation
+    pay:
+      location_and_cost_html: at <strong>%{location}</strong> for <strong>%{cost}</strong>.
+      make_payments_with_paypal_alt: Make payment with Paypal
+      make_sure_you_click_the_link: Please make sure you click the link to return to this site when you're done.
+      page_title: Pay for your square - SupporterWall.com
+      paypal_item_name: Square for %{name} - %{key}
+      subhead: ! 'Ok, here''s what we''ve got:'
+      title: Almost done!
+  nav:
+    about: About
+    account: Account
+    blog: Blog
+    dashboard: Dashboard
+    help: Help
+    howitworks: How It Works
+    login: Have an account? Sign in here.
+    logout: Logout
+    press: Press
+    privacy: Privacy
+    sign_up: Create Your Own Wall
+    terms: Terms of Service
+  notification:
+    invite:
+      subject: You have been invited to SupporterWall.com
+    marker_manage:
+      subject: You can make changes to the square you just bought
+    new_marker_notice:
+      subject: A new square has been purchased on your wall
+    new_wall_notice:
+      subject: A new wall has been purchased
+    welcome:
+      subject: Welcome to SupporterWall.com
   number:
     human:
       decimal_units:
         units:
-          unit: ''
+          unit: Unit
       format:
-        delimiter: ''
+        delimiter: Delimiter
     percentage:
       format:
-        delimiter: ''
+        delimiter: Delimiter
     precision:
       format:
-        delimiter: ''
-  error_messages:
-    login_invalid:
+        delimiter: Delimiter
+  paypal_language_code: US
+  sessions:
+    create:
+      page_title: Sign in to your account
+    new:
+      email_submit: Sign In
+      header_email: Sign in with Email
+      header_facebook: Sign in with Facebook
+      header_welcome: Welcome back!
+      page_title: Sign in to your account - SupporterWall
+      register_for_account_html: Don't have an account? <a href="%{url}">Create one now</a>!
+      subhead_welcome: Sign in here...
+      title: Sign in to your account
+  users:
+    new:
+      agree_to_terms_of_service_html: I agree to the <a href="%{url}" target="_blank">Terms of Service</a>.
+      create_your_account: You can start building your first wall as soon as you're registered!
+      header_sign_up_with_email: Register with your email address
+      header_sign_up_with_facebook: Register with your Facebook account
+      header_welcome: Ready to get started?
+      paypal_email_hint_html: You must have a PayPal account to accept donations. <a href="http://paypal.com" target="_blank">Learn More</a>.
+      sign_in_to_your_account_html: Do you already have an account? <a href="%{url}">Sign in instead</a>.
+      title: Register For An Account
+  walls:
+    cancel:
+      page_title: Your purchase has been canceled - SupporterWall
+      please_close_window: You may close this window to return to the wall builder
+      successfully_canceled: We're sorry to see that you decided not to pay for your wall. Don't worry though, it's still in your account and you can go back to it at any point if you change your mind. Also, we would love to hear why you chose not to pay. Please contact us with your feedback. :)
+      title: Your purchase has been canceled
+    complete:
+      back_to_dashboard: Head back to your dashboard
+      page_title: Thank you for your payment - SupporterWall
+      successfully_completed: We are just waiting for confirmation from Paypal, which should only take a minute. As soon as it's done, your wall is ready to go!
+      title: Thank you for your payment
+    create:
+      page_title: Build a new wall
+    donate:
+      donation_amount: Ok, how much would you like to donate?
+      next: Next Step
+      other_amount: ! 'Another amount:'
+      page_title: Make a Donation
+      title: Become A Supporter
+    edit:
+      save_changes: Save Changes
+    images:
+      confirm_delete: Are you sure you want to delete this image? This action is not reversible.
+      description_your_custom_images: Custom images can be used as square background images or as the default "anonymous" image for your wall. Your existing images (if any) can be found here.
+      header_add_new_custom_image: Upload A New Custom Image
+      header_your_custom_images: Your Custom Images
+    index:
+      dashboard_table_summary: Your Walls
+      header_stats: Overall Stats
+      new_wall: Create a new wall
+      number_of_walls: ! 'Number of walls:'
+      page_title: Your Dashboard - SupporterWall
+      table:
+        actions: Actions
+        customize: Customize
+        manage: Manage
+        status: Status
+        wall_name: Wall name
+      title: Your Dashboard
+      total_funding: ! 'Total funding:'
+    manage:
+      export_all_markers: Export
+      page_title: Manage your wall - SupporterWall
+      pick_a_square: Click any taken square to edit it. Click any available square to give as a gift.
+      squares_available_html: ! 'Squares Available: %{number}'
+      squares_sold_html: ! 'Squares Sold: %{number}'
+    new:
+      change_this_later: Don't worry, you can change these settings later
+      page_title: Create a new wall - SupporterWall
+      submit: Next Step
+      title: Create a new wall
+    pay:
+      click_here: Click Here
+      paypal_item_name: ! 'SupporterWall: %{name} - %{key}'
+      redirecting_you_to_paypal: Redirecting you to Paypal to pay for the wall. If you are not redirected in 10 seconds
+    section:
+      section_number: Section %{number}
+      upload_custom_image: Upload a custom image
+    show:
+      add_another_section: Add another section
+      background_image: Background Image
+      get_code: Get Code
+      grabcode:
+        content_embed_code_html: Just drop this code onto any HTML page and your supporter wall will be set up. That's it! <em><small>If you've already pasted the code into your site, your changes are now live, no need to re-paste :-)</small></em>
+        content_facebook: We're working on getting Facebook integration setup so that you can have a wall on your Facebook page. We will let you know as soon as it's live.
+        content_hosted_html: <a href="%{url}">See what your wall looks like</a> if you don't yet have your own website.
+        content_read_this: Once you begin receiving donations, you will not be able to re-configure your supporter wall! You may alter color palette and square prices, but all other options will be locked.
+        header_embed_code: Embed Code
+        header_facebook: What about Facebook?
+        header_hosted: Hosted Version
+        header_launch_wall: Start Showcaseing Your Supporters!
+        header_pay_later: Pay Later
+        header_pay_now: Pay Now
+        header_payment_options: You're almost done!
+        header_read_this: Read This!
+        select_payment_option: ! 'Just select the pricing plan that works best for you to launch your SupporterWall:'
+      header_palette: Choose Palette
+      header_potential_funds_html: ! 'Total Potential Funds: %{currency_code}<span>%{amount}</span> %{currency_name}'
+      header_preview: Preview
+      header_set_width: Wall Width
+      js:
+        unsaved_changes: You have made changes to your wall without saving them. Are you sure you want to leave this page?
+      page_title: Customize your Wall - SupporterWall
+      palette_light: Light
+      save: Save Changes
+      select: Select
+      select_image: Select Your Image
+      subhead_palette: (more coming soon)
+      subhead_preview_size: Shown at %{size} size
+      subhead_set_width: to fit on your site
+      take_it_live: Purchase
+    subnav:
+      cancel: Cancel
+      customize: Customize
+      export: Export Squares
+      images: Images
+      manage: Manage
+      save: Save
+      settings: Settings
+      tools: Tools
+    tools:
+      description_donate_button: Use this link to let people donate without having to pick a square. The system will assign them the best available square based on their donation amount. This also allows people to donate more than the set square prices.
+      donate_button_default_text: Donate Now
+      donate_button_link_text: What would you like the link to say?
+      donate_button_preview: ! 'Preview:'
+      header_donate_button: Direct Donate Link
